@@ -32,9 +32,9 @@ body {
 }
 .main {
     display: grid;
-    grid-template-columns:480px 221px 221px;
+    grid-template-columns:480px 221px 221px 50px 150px;
     grid-template-rows: 110px 120px 25px;
-    margin-left: 130px;
+    margin-left: 110px;
     position: relative;
     gap: 30px;
     margin-top: 100px;
@@ -62,3 +62,18 @@ p {
     background-color: beige;
     padding-bottom: 3px;
 }
+.order {
+grid-row: 1;
+grid-column: 5 / 2;
+font-size: 35px;
+text-align: right;
+color: beige;
+}
+h3 {
+    text-align: right;
+    font-size: 15px;
+    grid-column: 5 / 2;
+    grid-row: 2 / 3;
+    color: beige;
+}
+
