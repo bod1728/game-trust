@@ -1,0 +1,64 @@
+.ndiv {
+    background-color: beige;
+    position: relative;
+}
+.g-font {
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.t-font {
+  font-size: 22px;
+  margin-left: 3px;
+  margin-top: 3px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.list {
+    color: black;
+    font-weight: 500;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+}
+body {
+    background-color: darkred;
+}
+.main {
+    display: grid;
+    grid-template-columns:480px 221px 221px;
+    grid-template-rows: 110px 120px 25px;
+    margin-left: 130px;
+    position: relative;
+    gap: 30px;
+    margin-top: 100px;
+text-align: left;
+}
+h1 {
+    color: beige;
+    font-size: 45px;
+    grid-row: 1;
+}
+p {
+    color: beige;
+    grid-row: 2 / 3;
+    font-weight: 500;
+}
+.first-c {
+    grid-row: 1 / 4;
+    grid-column: 2 / 3;
+}
+.second-c {
+    grid-row: 1 / 4;
+    grid-column: 3 / 4;
+}
+.footer-div {
+    background-color: beige;
+    padding-bottom: 3px;
+}
